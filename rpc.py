@@ -13,6 +13,7 @@ while True:
     print("I cant understand you. Please type 'Yes' or 'No'.")
 '''This is my first time using break and .lower in coding so It may not be the most optimized. Its supposed to loop until the user says 'yes' or 'no'.'''
 
+while play_again == "yes"
 import random
 options = ["rock", "paper", "scissors"]
 
