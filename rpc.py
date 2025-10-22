@@ -1,4 +1,4 @@
-# Project-1.Zeus
+# Project-1.rpc
 import random
 
 print("Hello user! I hope you're doing wonderful!")
