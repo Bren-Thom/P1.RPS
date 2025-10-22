@@ -31,4 +31,17 @@ while True
     print("You didnt enter a valid input")
 
 computer_move = random.choice(options)
-if user_move = 
+if user_move == "rock" and computer_move == "scissors":
+  print("You win!")
+elif user_move == "paper" and computer_move == "rock":
+  print("You win!")
+elif user_move == "scissors" and computer_move == "paper":
+  print("You win!")
+elif user_mover == computer_move:
+  print("Its a tie!")
+else:
+  print("You loose!")
+
+play_again = input("Awsome!! Do you want to play again?").lower()
+if play again == "yes"
+  
