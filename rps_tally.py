@@ -47,6 +47,10 @@ while play_again == "yes":
         print("You lose!")
       
   play_again = input("\nAwesome!! Do you want to play again? (Yes or No): ").strip().lower()
+  print("\nFinal Tallies: ")
+      print("User_wins: ", user_win)
+      print("Computer_win: ", computer_win)
+      print("Ties: ", ties)
     if play_again not in ["yes", "no"]:
         print("I'll take that answer as a 'no'. Thanks for playing!")
         break
